@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="KGk-i7-Jjw" customClass="CustomTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="89"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zIs-ah-f25">
+                        <rect key="frame" x="10" y="10" width="120" height="69.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="B6F-RM-7Vm"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2f-yn-oYE">
+                        <rect key="frame" x="140" y="10" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fmu-sl-emh">
+                        <rect key="frame" x="140" y="58" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fmu-sl-emh" firstAttribute="leading" secondItem="D2f-yn-oYE" secondAttribute="leading" id="M4S-40-ywo"/>
+                    <constraint firstItem="D2f-yn-oYE" firstAttribute="leading" secondItem="zIs-ah-f25" secondAttribute="trailing" constant="10" id="Ujn-s9-AJv"/>
+                    <constraint firstItem="zIs-ah-f25" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="f7S-G2-qsP"/>
+                    <constraint firstItem="fmu-sl-emh" firstAttribute="bottom" secondItem="zIs-ah-f25" secondAttribute="bottom" id="gdw-gQ-kwc"/>
+                    <constraint firstItem="zIs-ah-f25" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="hnd-Ue-WGS"/>
+                    <constraint firstItem="D2f-yn-oYE" firstAttribute="top" secondItem="zIs-ah-f25" secondAttribute="top" id="j3p-5m-MuB"/>
+                    <constraint firstAttribute="bottom" secondItem="zIs-ah-f25" secondAttribute="bottom" constant="10" id="r89-DX-nVG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="videoImageView" destination="zIs-ah-f25" id="9p7-5v-fwR"/>
+                <outlet property="videoOfDiskSize" destination="fmu-sl-emh" id="daX-HW-Zz3"/>
+                <outlet property="videoTitleLabel" destination="D2f-yn-oYE" id="NWU-dC-prJ"/>
+            </connections>
+            <point key="canvasLocation" x="-115" y="-252"/>
+        </tableViewCell>
+    </objects>
+</document>

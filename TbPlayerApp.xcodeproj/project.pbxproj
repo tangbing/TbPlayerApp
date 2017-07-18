@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040F6EFA1F1315D3005169D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F6EF91F1315D3005169D0 /* main.m */; };
+		040F6EFD1F1315D3005169D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F6EFC1F1315D3005169D0 /* AppDelegate.m */; };
+		040F6F001F1315D3005169D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F6EFF1F1315D3005169D0 /* ViewController.m */; };
+		040F6F031F1315D3005169D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040F6F011F1315D3005169D0 /* Main.storyboard */; };
+		040F6F051F1315D3005169D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040F6F041F1315D3005169D0 /* Assets.xcassets */; };
+		040F6F081F1315D3005169D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040F6F061F1315D3005169D0 /* LaunchScreen.storyboard */; };
+		040F6F131F1315D3005169D0 /* TbPlayerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F6F121F1315D3005169D0 /* TbPlayerAppTests.m */; };
+		040F6F1E1F1315D3005169D0 /* TbPlayerAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F6F1D1F1315D3005169D0 /* TbPlayerAppUITests.m */; };
+		048854791F134B8E00D4B647 /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 048854781F134B8E00D4B647 /* UIView+XMGExtension.m */; };
+		0488547D1F134C6500D4B647 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0488547B1F134C6500D4B647 /* CustomTableViewCell.m */; };
+		0488547E1F134C6500D4B647 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0488547C1F134C6500D4B647 /* CustomTableViewCell.xib */; };
+		048854811F1354E700D4B647 /* video.m in Sources */ = {isa = PBXBuildFile; fileRef = 048854801F1354E700D4B647 /* video.m */; };
+		B11A5F9AA23514A0BF3F3037 /* libPods-TbPlayerApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A31E4C3FA166C39E75E34A5E /* libPods-TbPlayerApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		040F6F0F1F1315D3005169D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040F6EED1F1315D1005169D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040F6EF41F1315D1005169D0;
+			remoteInfo = TbPlayerApp;
+		};
+		040F6F1A1F1315D3005169D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040F6EED1F1315D1005169D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040F6EF41F1315D1005169D0;
+			remoteInfo = TbPlayerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040F6EF51F1315D1005169D0 /* TbPlayerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TbPlayerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040F6EF91F1315D3005169D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		040F6EFB1F1315D3005169D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		040F6EFC1F1315D3005169D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		040F6EFE1F1315D3005169D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		040F6EFF1F1315D3005169D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		040F6F021F1315D3005169D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040F6F041F1315D3005169D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040F6F071F1315D3005169D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040F6F091F1315D3005169D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040F6F0E1F1315D3005169D0 /* TbPlayerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TbPlayerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		040F6F121F1315D3005169D0 /* TbPlayerAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TbPlayerAppTests.m; sourceTree = "<group>"; };
+		040F6F141F1315D3005169D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040F6F191F1315D3005169D0 /* TbPlayerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TbPlayerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		040F6F1D1F1315D3005169D0 /* TbPlayerAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TbPlayerAppUITests.m; sourceTree = "<group>"; };
+		040F6F1F1F1315D3005169D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048854771F134B8E00D4B647 /* UIView+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension.h"; sourceTree = "<group>"; };
+		048854781F134B8E00D4B647 /* UIView+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension.m"; sourceTree = "<group>"; };
+		0488547A1F134C6500D4B647 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		0488547B1F134C6500D4B647 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		0488547C1F134C6500D4B647 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		0488547F1F1354E700D4B647 /* video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = video.h; sourceTree = "<group>"; };
+		048854801F1354E700D4B647 /* video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = video.m; sourceTree = "<group>"; };
+		32BD0BEEAABFDB2E05219D22 /* Pods-TbPlayerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TbPlayerApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TbPlayerApp/Pods-TbPlayerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		70B8ACEADC44EC7A1200FFCB /* Pods-TbPlayerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TbPlayerApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TbPlayerApp/Pods-TbPlayerApp.release.xcconfig"; sourceTree = "<group>"; };
+		A31E4C3FA166C39E75E34A5E /* libPods-TbPlayerApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TbPlayerApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040F6EF21F1315D1005169D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11A5F9AA23514A0BF3F3037 /* libPods-TbPlayerApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040F6F0B1F1315D3005169D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040F6F161F1315D3005169D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040F6EEC1F1315D1005169D0 = {
+			isa = PBXGroup;
+			children = (
+				040F6EF71F1315D1005169D0 /* TbPlayerApp */,
+				040F6F111F1315D3005169D0 /* TbPlayerAppTests */,
+				040F6F1C1F1315D3005169D0 /* TbPlayerAppUITests */,
+				040F6EF61F1315D1005169D0 /* Products */,
+				8622132A55DCD1ED5226EA18 /* Pods */,
+				79CAE88B9BCE44D4744475F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		040F6EF61F1315D1005169D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040F6EF51F1315D1005169D0 /* TbPlayerApp.app */,
+				040F6F0E1F1315D3005169D0 /* TbPlayerAppTests.xctest */,
+				040F6F191F1315D3005169D0 /* TbPlayerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040F6EF71F1315D1005169D0 /* TbPlayerApp */ = {
+			isa = PBXGroup;
+			children = (
+				048854771F134B8E00D4B647 /* UIView+XMGExtension.h */,
+				048854781F134B8E00D4B647 /* UIView+XMGExtension.m */,
+				040F6EFB1F1315D3005169D0 /* AppDelegate.h */,
+				040F6EFC1F1315D3005169D0 /* AppDelegate.m */,
+				040F6EFE1F1315D3005169D0 /* ViewController.h */,
+				040F6EFF1F1315D3005169D0 /* ViewController.m */,
+				040F6F011F1315D3005169D0 /* Main.storyboard */,
+				040F6F041F1315D3005169D0 /* Assets.xcassets */,
+				040F6F061F1315D3005169D0 /* LaunchScreen.storyboard */,
+				040F6F091F1315D3005169D0 /* Info.plist */,
+				040F6EF81F1315D3005169D0 /* Supporting Files */,
+				0488547A1F134C6500D4B647 /* CustomTableViewCell.h */,
+				0488547B1F134C6500D4B647 /* CustomTableViewCell.m */,
+				0488547C1F134C6500D4B647 /* CustomTableViewCell.xib */,
+				0488547F1F1354E700D4B647 /* video.h */,
+				048854801F1354E700D4B647 /* video.m */,
+			);
+			path = TbPlayerApp;
+			sourceTree = "<group>";
+		};
+		040F6EF81F1315D3005169D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				040F6EF91F1315D3005169D0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		040F6F111F1315D3005169D0 /* TbPlayerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				040F6F121F1315D3005169D0 /* TbPlayerAppTests.m */,
+				040F6F141F1315D3005169D0 /* Info.plist */,
+			);
+			path = TbPlayerAppTests;
+			sourceTree = "<group>";
+		};
+		040F6F1C1F1315D3005169D0 /* TbPlayerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				040F6F1D1F1315D3005169D0 /* TbPlayerAppUITests.m */,
+				040F6F1F1F1315D3005169D0 /* Info.plist */,
+			);
+			path = TbPlayerAppUITests;
+			sourceTree = "<group>";
+		};
+		79CAE88B9BCE44D4744475F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A31E4C3FA166C39E75E34A5E /* libPods-TbPlayerApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8622132A55DCD1ED5226EA18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32BD0BEEAABFDB2E05219D22 /* Pods-TbPlayerApp.debug.xcconfig */,
+				70B8ACEADC44EC7A1200FFCB /* Pods-TbPlayerApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040F6EF41F1315D1005169D0 /* TbPlayerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040F6F221F1315D3005169D0 /* Build configuration list for PBXNativeTarget "TbPlayerApp" */;
+			buildPhases = (
+				6280D7EE245DC047B16841DF /* [CP] Check Pods Manifest.lock */,
+				040F6EF11F1315D1005169D0 /* Sources */,
+				040F6EF21F1315D1005169D0 /* Frameworks */,
+				040F6EF31F1315D1005169D0 /* Resources */,
+				75D7A1F84532865D924962AB /* [CP] Embed Pods Frameworks */,
+				11EC66D79CB366DDDE553B14 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TbPlayerApp;
+			productName = TbPlayerApp;
+			productReference = 040F6EF51F1315D1005169D0 /* TbPlayerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		040F6F0D1F1315D3005169D0 /* TbPlayerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040F6F251F1315D3005169D0 /* Build configuration list for PBXNativeTarget "TbPlayerAppTests" */;
+			buildPhases = (
+				040F6F0A1F1315D3005169D0 /* Sources */,
+				040F6F0B1F1315D3005169D0 /* Frameworks */,
+				040F6F0C1F1315D3005169D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040F6F101F1315D3005169D0 /* PBXTargetDependency */,
+			);
+			name = TbPlayerAppTests;
+			productName = TbPlayerAppTests;
+			productReference = 040F6F0E1F1315D3005169D0 /* TbPlayerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		040F6F181F1315D3005169D0 /* TbPlayerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040F6F281F1315D3005169D0 /* Build configuration list for PBXNativeTarget "TbPlayerAppUITests" */;
+			buildPhases = (
+				040F6F151F1315D3005169D0 /* Sources */,
+				040F6F161F1315D3005169D0 /* Frameworks */,
+				040F6F171F1315D3005169D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040F6F1B1F1315D3005169D0 /* PBXTargetDependency */,
+			);
+			name = TbPlayerAppUITests;
+			productName = TbPlayerAppUITests;
+			productReference = 040F6F191F1315D3005169D0 /* TbPlayerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040F6EED1F1315D1005169D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = macTb;
+				TargetAttributes = {
+					040F6EF41F1315D1005169D0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A8N753RPEC;
+						ProvisioningStyle = Automatic;
+					};
+					040F6F0D1F1315D3005169D0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A8N753RPEC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 040F6EF41F1315D1005169D0;
+					};
+					040F6F181F1315D3005169D0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A8N753RPEC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 040F6EF41F1315D1005169D0;
+					};
+				};
+			};
+			buildConfigurationList = 040F6EF01F1315D1005169D0 /* Build configuration list for PBXProject "TbPlayerApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040F6EEC1F1315D1005169D0;
+			productRefGroup = 040F6EF61F1315D1005169D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040F6EF41F1315D1005169D0 /* TbPlayerApp */,
+				040F6F0D1F1315D3005169D0 /* TbPlayerAppTests */,
+				040F6F181F1315D3005169D0 /* TbPlayerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040F6EF31F1315D1005169D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040F6F081F1315D3005169D0 /* LaunchScreen.storyboard in Resources */,
+				040F6F051F1315D3005169D0 /* Assets.xcassets in Resources */,
+				0488547E1F134C6500D4B647 /* CustomTableViewCell.xib in Resources */,
+				040F6F031F1315D3005169D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040F6F0C1F1315D3005169D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040F6F171F1315D3005169D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11EC66D79CB366DDDE553B14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TbPlayerApp/Pods-TbPlayerApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6280D7EE245DC047B16841DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75D7A1F84532865D924962AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TbPlayerApp/Pods-TbPlayerApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040F6EF11F1315D1005169D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040F6F001F1315D3005169D0 /* ViewController.m in Sources */,
+				048854791F134B8E00D4B647 /* UIView+XMGExtension.m in Sources */,
+				040F6EFD1F1315D3005169D0 /* AppDelegate.m in Sources */,
+				048854811F1354E700D4B647 /* video.m in Sources */,
+				0488547D1F134C6500D4B647 /* CustomTableViewCell.m in Sources */,
+				040F6EFA1F1315D3005169D0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040F6F0A1F1315D3005169D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040F6F131F1315D3005169D0 /* TbPlayerAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040F6F151F1315D3005169D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040F6F1E1F1315D3005169D0 /* TbPlayerAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040F6F101F1315D3005169D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040F6EF41F1315D1005169D0 /* TbPlayerApp */;
+			targetProxy = 040F6F0F1F1315D3005169D0 /* PBXContainerItemProxy */;
+		};
+		040F6F1B1F1315D3005169D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040F6EF41F1315D1005169D0 /* TbPlayerApp */;
+			targetProxy = 040F6F1A1F1315D3005169D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		040F6F011F1315D3005169D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040F6F021F1315D3005169D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040F6F061F1315D3005169D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040F6F071F1315D3005169D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040F6F201F1315D3005169D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		040F6F211F1315D3005169D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040F6F231F1315D3005169D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32BD0BEEAABFDB2E05219D22 /* Pods-TbPlayerApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A8N753RPEC;
+				INFOPLIST_FILE = TbPlayerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aetos.TbPlayerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		040F6F241F1315D3005169D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70B8ACEADC44EC7A1200FFCB /* Pods-TbPlayerApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A8N753RPEC;
+				INFOPLIST_FILE = TbPlayerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aetos.TbPlayerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		040F6F261F1315D3005169D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A8N753RPEC;
+				INFOPLIST_FILE = TbPlayerAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aetos.TbPlayerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TbPlayerApp.app/TbPlayerApp";
+			};
+			name = Debug;
+		};
+		040F6F271F1315D3005169D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A8N753RPEC;
+				INFOPLIST_FILE = TbPlayerAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aetos.TbPlayerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TbPlayerApp.app/TbPlayerApp";
+			};
+			name = Release;
+		};
+		040F6F291F1315D3005169D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A8N753RPEC;
+				INFOPLIST_FILE = TbPlayerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aetos.TbPlayerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TbPlayerApp;
+			};
+			name = Debug;
+		};
+		040F6F2A1F1315D3005169D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A8N753RPEC;
+				INFOPLIST_FILE = TbPlayerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aetos.TbPlayerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TbPlayerApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040F6EF01F1315D1005169D0 /* Build configuration list for PBXProject "TbPlayerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040F6F201F1315D3005169D0 /* Debug */,
+				040F6F211F1315D3005169D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040F6F221F1315D3005169D0 /* Build configuration list for PBXNativeTarget "TbPlayerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040F6F231F1315D3005169D0 /* Debug */,
+				040F6F241F1315D3005169D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040F6F251F1315D3005169D0 /* Build configuration list for PBXNativeTarget "TbPlayerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040F6F261F1315D3005169D0 /* Debug */,
+				040F6F271F1315D3005169D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040F6F281F1315D3005169D0 /* Build configuration list for PBXNativeTarget "TbPlayerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040F6F291F1315D3005169D0 /* Debug */,
+				040F6F2A1F1315D3005169D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040F6EED1F1315D1005169D0 /* Project object */;
+}

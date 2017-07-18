@@ -3,6 +3,5 @@
 
 target 'TbPlayerApp' do
 pod 'MJExtension'
-pod 'MobileVLCKit', '~> 2.2.2'
 
 end

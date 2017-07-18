@@ -12,7 +12,6 @@
 #import <AVFoundation/AVFoundation.h>
 #import "UIView+XMGExtension.h"
 #import "CustomTableViewCell.h"
-#import <MJExtension.h>
 #import "video.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>

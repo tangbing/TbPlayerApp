@@ -131,6 +131,8 @@ static NSString* const ID = @"cellIDentifier";
         //视频播放的url
         NSURL *playerURL = v.videoURL;
         
+        
+        
         //初始化
         self.playerView = [[AVPlayerViewController alloc]init];
         
